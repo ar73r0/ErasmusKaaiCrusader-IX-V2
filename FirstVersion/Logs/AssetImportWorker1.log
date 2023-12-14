@@ -1,0 +1,493 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/robbe/OneDrive/Documenten/GitHub/ErasmusKaaiCrusader-IX-V2/FirstVersion
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51229
+Successfully changed project path to: C:/Users/robbe/OneDrive/Documenten/GitHub/ErasmusKaaiCrusader-IX-V2/FirstVersion
+C:/Users/robbe/OneDrive/Documenten/GitHub/ErasmusKaaiCrusader-IX-V2/FirstVersion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19124] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1933336252 [EditorId] 1933336252 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7V3MDQV4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19124] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1933336252 [EditorId] 1933336252 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7V3MDQV4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 21.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/robbe/OneDrive/Documenten/GitHub/ErasmusKaaiCrusader-IX-V2/FirstVersion/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8081 MB
+    Driver:   30.0.101.1404
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011832 seconds.
+- Loaded All Assemblies, in  0.495 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.389 seconds
+Domain Reload Profiling: 881ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (149ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (389ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (312ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (212ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.860 seconds
+Refreshing native plugins compatible for Editor in 13.15 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.746 seconds
+Domain Reload Profiling: 2602ms
+	BeginReloadAssembly (194ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (537ms)
+		LoadAssemblies (412ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (174ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1747ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1555ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (1334ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 9.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 82 unused Assets / (250.7 KB). Loaded Objects now: 4539.
+Memory consumption went from 182.6 MB to 182.3 MB.
+Total: 5.705400 ms (FindLiveObjects: 0.365100 ms CreateObjectMapping: 0.416700 ms MarkObjects: 4.592900 ms  DeleteObjects: 0.328900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76858.877962 seconds.
+  path: Assets/Textures/Japan
+  artifactKey: Guid(974f8f8852376c34f84f052710effe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Japan using Guid(974f8f8852376c34f84f052710effe5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b910945d7c74e75e4224b2ae0299a8') in 0.002557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 276.855780 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_372.png
+  artifactKey: Guid(77f73da9aad6a2046b187334d561a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_372.png using Guid(77f73da9aad6a2046b187334d561a1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189df90bea0bb643ec3f7b5a883b64f6') in 0.130631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_382.png
+  artifactKey: Guid(3c804126a1365234592f307b057bc2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_382.png using Guid(3c804126a1365234592f307b057bc2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f6f3038680bdf9cfae584e95e45962') in 0.024140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_383.png
+  artifactKey: Guid(579dea255a12a304799ae4fe1bf74e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_383.png using Guid(579dea255a12a304799ae4fe1bf74e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1055475a8ad82f035cb587acaf6f05fa') in 0.024046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_389.png
+  artifactKey: Guid(8845a5e6e66c98044ac51a7e86263683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_389.png using Guid(8845a5e6e66c98044ac51a7e86263683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b454dc1216055780e6314464dc46df8') in 0.024926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_392.png
+  artifactKey: Guid(cc318281142824742ac51e339378ca0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_392.png using Guid(cc318281142824742ac51e339378ca0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d2abbb54e1e7e6f6582f1c4a46e3c2') in 0.023511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_381.png
+  artifactKey: Guid(07109912201dfbc40bb5826d9f43eb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_381.png using Guid(07109912201dfbc40bb5826d9f43eb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27d132ac3e31537cd062e4dea394b67') in 0.024803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_396.png
+  artifactKey: Guid(8f33b966e0b94674e8e4b811492e1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_396.png using Guid(8f33b966e0b94674e8e4b811492e1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277988c35427f71f0f6fbd2d245735d5') in 0.025225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_378.png
+  artifactKey: Guid(f685cc0fd3df0844d85d25b2d857d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_378.png using Guid(f685cc0fd3df0844d85d25b2d857d65f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0721dd9d2690aa493076c9a42f6f4035') in 0.025854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_373.png
+  artifactKey: Guid(381b2a8b412b6d64cbf0d1fae7fd8003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_373.png using Guid(381b2a8b412b6d64cbf0d1fae7fd8003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cdc680f2f12b5dfc4fd348ad3d1ad0') in 0.027399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_404.png
+  artifactKey: Guid(fd2ff3af987a1a9419755f91808124af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_404.png using Guid(fd2ff3af987a1a9419755f91808124af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7742318fd1e403229c6e74b87365d40') in 0.022233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_394.png
+  artifactKey: Guid(1942d4411d72cbf49a0f7b2a32198ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_394.png using Guid(1942d4411d72cbf49a0f7b2a32198ed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb5ea3ddbf2c43c97a8e38b8cb1b34b') in 0.023028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_406.png
+  artifactKey: Guid(13350102742c1794199774565e65029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_406.png using Guid(13350102742c1794199774565e65029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e45802d57eeee285bfccd840c58bea9') in 0.022431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_387.png
+  artifactKey: Guid(6d81a495fc542b84fabd822b2df0f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_387.png using Guid(6d81a495fc542b84fabd822b2df0f608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e92f7e3a8abddea420193b9ed24e23') in 0.024294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_411.png
+  artifactKey: Guid(a9abfe7033ff35e4b81a45b9268de401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_411.png using Guid(a9abfe7033ff35e4b81a45b9268de401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f61c826bf02be3a769f3e92f7cd62e6') in 0.022002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_415.png
+  artifactKey: Guid(e9a77b108e3bafb4d87d9ed4e8b7980e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_415.png using Guid(e9a77b108e3bafb4d87d9ed4e8b7980e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ef860ded6131e24c39606586162054') in 0.021021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_416.png
+  artifactKey: Guid(84a0d81dc73a29d4aba964acfcf603a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_416.png using Guid(84a0d81dc73a29d4aba964acfcf603a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225bf92847fdeddaffdd8a7be0750442') in 0.024398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_419.png
+  artifactKey: Guid(2e3c1db5991b7554081ce6012dc004ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_419.png using Guid(2e3c1db5991b7554081ce6012dc004ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7e46639988446cca6e271750897e95') in 0.023854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_421.png
+  artifactKey: Guid(98faa17df80568a439172c5b66fad7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_421.png using Guid(98faa17df80568a439172c5b66fad7ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c274d4ca29ef21915f10a4a6c8fcf68') in 0.022848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_403.png
+  artifactKey: Guid(a4f9e13a8f160904a86a6df7125e40a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_403.png using Guid(a4f9e13a8f160904a86a6df7125e40a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0fb0c717a29a287473d212f43eedca') in 0.024436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_425.png
+  artifactKey: Guid(b7c6389334233c4438843e7c70a35247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_425.png using Guid(b7c6389334233c4438843e7c70a35247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc9bf5106ca3ead736862bb7d368350') in 0.025629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_427.png
+  artifactKey: Guid(60b33d041c86cbd40817d2e4d3c3ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_427.png using Guid(60b33d041c86cbd40817d2e4d3c3ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55de017dc0bd961782554e87404f004') in 0.022777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_430.png
+  artifactKey: Guid(ed4ae673a72e2af45ae3dfdef098b34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_430.png using Guid(ed4ae673a72e2af45ae3dfdef098b34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70473596220bb8b1883beae48193153') in 0.024565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_376.png
+  artifactKey: Guid(ec04c06fe57efb14dbe3ce5cce9cdfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_376.png using Guid(ec04c06fe57efb14dbe3ce5cce9cdfc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce89cd8f3833d8cfd82e750a3aaf5b5b') in 0.025587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_386.png
+  artifactKey: Guid(6308fa89aa9de8b4fbab152c05981fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_386.png using Guid(6308fa89aa9de8b4fbab152c05981fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e10effc7e27f818015a04b6e8f7870b') in 0.025631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_408.png
+  artifactKey: Guid(36d93ec10fd4812458e8470222bd91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_408.png using Guid(36d93ec10fd4812458e8470222bd91a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e9eebe7d96787b60c54595234ce0f2') in 0.023971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_398.png
+  artifactKey: Guid(fe04eb99b69b5604c8676910dcf767c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_398.png using Guid(fe04eb99b69b5604c8676910dcf767c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb7f5e276f30975989ad5c95ad4f25a') in 0.022504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_384.png
+  artifactKey: Guid(63f1d78e00848f84ab7beb43c5556ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_384.png using Guid(63f1d78e00848f84ab7beb43c5556ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bda8273a451ea862b43b674ab4c986b') in 0.022814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_409.png
+  artifactKey: Guid(82d2e5b7a6c00c943a629d367c4b6162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_409.png using Guid(82d2e5b7a6c00c943a629d367c4b6162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec9013d68920100956f18a3aab718c4') in 0.030324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_431.png
+  artifactKey: Guid(0af4be6ae7d932f4a8faf412962d9e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_431.png using Guid(0af4be6ae7d932f4a8faf412962d9e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559d391ad4cb67b0c5e8bb8c5e11e932') in 0.031826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_407.png
+  artifactKey: Guid(33c478cc16a6f8346b7a65fbdccee325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Icons/pack4/RPG Icon Pack/Icons 32x32/icon_407.png using Guid(33c478cc16a6f8346b7a65fbdccee325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc5adbd58fa3be312afbaa9f094f65e') in 0.037120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 12.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.876 seconds
+Domain Reload Profiling: 2521ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (313ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (949ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (755ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 15.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.6 KB). Loaded Objects now: 4551.
+Memory consumption went from 150.8 MB to 150.5 MB.
+Total: 7.386800 ms (FindLiveObjects: 0.718800 ms CreateObjectMapping: 0.583100 ms MarkObjects: 5.643200 ms  DeleteObjects: 0.437500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
