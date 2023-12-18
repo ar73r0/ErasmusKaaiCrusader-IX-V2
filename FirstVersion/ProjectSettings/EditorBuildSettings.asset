@@ -11,4 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bootcamp.unity
     guid: 544c81cede9b91b4a87805e37c46cb45
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: d3cdbbe4961aaea4d8ac0114f17a6eb7, type: 2}
