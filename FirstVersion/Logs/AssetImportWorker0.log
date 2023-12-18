@@ -15,7 +15,7 @@ C:/Users/JP/Desktop/ErasmusKaaiCrusader-IX-V2/FirstVersion
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53945
+51921
 Successfully changed project path to: C:/Users/JP/Desktop/ErasmusKaaiCrusader-IX-V2/FirstVersion
 C:/Users/JP/Desktop/ErasmusKaaiCrusader-IX-V2/FirstVersion
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/JP/Desktop/ErasmusKaaiCrusader-IX-V2/FirstVersion
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23572] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2811585529 [EditorId] 2811585529 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3TEGCAKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26672] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3492711880 [EditorId] 3492711880 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3TEGCAKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23572] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2811585529 [EditorId] 2811585529 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3TEGCAKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26672] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3492711880 [EditorId] 3492711880 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-3TEGCAKU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 26.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 27.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Users/JP/Desktop/EHB/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Users/JP/Desktop/EHB/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Users/JP/Desktop/EHB/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Users/JP/Desktop/EHB/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Users/JP/Desktop/EHB/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Users/JP/Desktop/EHB/2022.3.15f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.020195 seconds.
-- Loaded All Assemblies, in  0.683 seconds
+Registered in 0.025336 seconds.
+- Loaded All Assemblies, in  0.849 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.473 seconds
-Domain Reload Profiling: 1153ms
-	BeginReloadAssembly (225ms)
+- Finished resetting the current domain, in  0.560 seconds
+Domain Reload Profiling: 1404ms
+	BeginReloadAssembly (274ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (71ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (122ms)
-	LoadAllAssembliesAndSetupDomain (243ms)
-		LoadAssemblies (221ms)
+	RebuildCommonClasses (112ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (157ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (270ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (217ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (246ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (473ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (561ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (377ms)
+		SetupLoadedEditorAssemblies (439ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (245ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 1153ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.240 seconds
-Refreshing native plugins compatible for Editor in 7.63 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.222 seconds
+Refreshing native plugins compatible for Editor in 10.49 ms, found 4 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.275 seconds
-Domain Reload Profiling: 2504ms
-	BeginReloadAssembly (253ms)
+- Finished resetting the current domain, in  1.516 seconds
+Domain Reload Profiling: 2728ms
+	BeginReloadAssembly (280ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (66ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (783ms)
-		LoadAssemblies (622ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (763ms)
+		LoadAssemblies (598ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (313ms)
-			TypeCache.Refresh (264ms)
-				TypeCache.ScanAssembly (238ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (272ms)
+				TypeCache.ScanAssembly (245ms)
 			ScanForSourceGeneratedMonoScriptInfo (38ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1276ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1517ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (993ms)
+		SetupLoadedEditorAssemblies (1194ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (145ms)
-			ProcessInitializeOnLoadAttributes (761ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
-			AfterProcessingInitializeOnLoad (14ms)
+			ProcessInitializeOnLoadAttributes (930ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (18ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (16ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 11.98 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 11.00 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4017 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (61.0 KB). Loaded Objects now: 4478.
-Memory consumption went from 148.8 MB to 148.8 MB.
-Total: 4.666100 ms (FindLiveObjects: 0.428800 ms CreateObjectMapping: 0.393500 ms MarkObjects: 3.667900 ms  DeleteObjects: 0.174500 ms)
+Unloading 4181 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (135.3 KB). Loaded Objects now: 4641.
+Memory consumption went from 152.5 MB to 152.4 MB.
+Total: 5.962700 ms (FindLiveObjects: 0.436300 ms CreateObjectMapping: 0.321600 ms MarkObjects: 4.992600 ms  DeleteObjects: 0.210600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,361 +184,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 18746.801321 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA4.png
-  artifactKey: Guid(2a2827b49a1ef534291a19c5c0115beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA4.png using Guid(2a2827b49a1ef534291a19c5c0115beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '166006704670ebde2d97a916ad180060') in 0.178101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_inside1.png
-  artifactKey: Guid(e6b72e42a18e5304386bb25728bc9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_inside1.png using Guid(e6b72e42a18e5304386bb25728bc9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1754cfa00ea06a99debb4a988f7426') in 0.045171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA2.png
-  artifactKey: Guid(7803df100f38c5d48a12ba28b14e98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA2.png using Guid(7803df100f38c5d48a12ba28b14e98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4f94003d3045f119427fdb994ba983') in 0.038067 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 74.145986 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA2.png
-  artifactKey: Guid(7803df100f38c5d48a12ba28b14e98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA2.png using Guid(7803df100f38c5d48a12ba28b14e98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7915087195bd0f6484e81bc26d6079a6') in 0.036840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 380.479551 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA2.png
-  artifactKey: Guid(7803df100f38c5d48a12ba28b14e98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA2.png using Guid(7803df100f38c5d48a12ba28b14e98bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8236fc687e73b0b1e45bf78ac130d636') in 0.547683 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 194
-========================================================================
-Received Import Request.
-  Time since last request: 5423.632656 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA5_spacestation.png
-  artifactKey: Guid(9047d3d1df33db1469125fef321e26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA5_spacestation.png using Guid(9047d3d1df33db1469125fef321e26ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f4cfb17984760a76456577e5001e4d') in 0.054320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 43.300142 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ea02f564ba6a276ec032d720829234') in 0.001129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 759.606327 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/characters/future2.png
-  artifactKey: Guid(df0ab4577b10dbd4da18009f9093c933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/characters/future2.png using Guid(df0ab4577b10dbd4da18009f9093c933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfc9172bf0d03200c0f8bc0ba4c0664') in 0.037622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.220031 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/characters/modern3.png
-  artifactKey: Guid(cc58b0f9cd29638469e40f1a25fceaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/characters/modern3.png using Guid(cc58b0f9cd29638469e40f1a25fceaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b23829642cad3661541e88ebf423d4') in 0.029717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.914213 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/characters/modern1.png
-  artifactKey: Guid(0500506e3c59739448c568f537cb9ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/characters/modern1.png using Guid(0500506e3c59739448c568f537cb9ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33e172f2b3561ec934a0724e369d2a7') in 0.030424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 9.884257 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/svbattler/svb_future1.png
-  artifactKey: Guid(b161744015233f94fb31fe7ce02755d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/svbattler/svb_future1.png using Guid(b161744015233f94fb31fe7ce02755d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1157b26c1d0ce1bd3730af5d386d1e98') in 0.032563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.171530 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/svbattler/svb_future2.png
-  artifactKey: Guid(20518383b1abb5942907c53f94a771d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/svbattler/svb_future2.png using Guid(20518383b1abb5942907c53f94a771d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9271964b1f4c0241ae6af146a6abe98c') in 0.027774 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 17.554280 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/svbattler/svb_future3.png
-  artifactKey: Guid(dedb56ea64d32ac4b89f2d335c8f2435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/svbattler/svb_future3.png using Guid(dedb56ea64d32ac4b89f2d335c8f2435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a508877eba63697bf69f0e3cf5aecf1') in 0.032747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 16.982983 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA5_city.png
-  artifactKey: Guid(ad2763c6fa37f0242b0c64de8ced842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA5_city.png using Guid(ad2763c6fa37f0242b0c64de8ced842c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a586b59007b2b498db97591f9ddc021a') in 0.027065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.203370 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA5_factory.png
-  artifactKey: Guid(5d699e96777c19f4d9dae38da056cf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA5_factory.png using Guid(5d699e96777c19f4d9dae38da056cf92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea82874677000d02a1c6b148f72f5c66') in 0.029417 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.475237 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA5_inside.png
-  artifactKey: Guid(c475d48f3834d7d41a9b78af9702a195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileA5_inside.png using Guid(c475d48f3834d7d41a9b78af9702a195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af54ff834d2c7ff75f32cb5c6c8a783') in 0.025348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 19.739066 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_city.png
-  artifactKey: Guid(f9f7925823805c5459793585758040f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_city.png using Guid(f9f7925823805c5459793585758040f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02125a961cd8d5d9bd972c3f0d7d9e32') in 0.031503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 10.652563 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_factory.png
-  artifactKey: Guid(222c51da6d479974ca5d9851502ca68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_factory.png using Guid(222c51da6d479974ca5d9851502ca68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e44ae905114eeaf20329b1ad397b05') in 0.032611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 9.948888 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_inside2.png
-  artifactKey: Guid(6a2b1d2b0137c4349804638239ae2023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_inside2.png using Guid(6a2b1d2b0137c4349804638239ae2023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6cc854c061dcfa24e313a62a78d252') in 0.032352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.434490 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_lab.png
-  artifactKey: Guid(a9944bcff0c1f2241ba56bbb26e952be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/future_tileB_lab.png using Guid(a9944bcff0c1f2241ba56bbb26e952be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182ddb66d9551098cde1438042398092') in 0.038079 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.717011 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA1.png
-  artifactKey: Guid(fd3afe42d4072ac4d963017cd174ded6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA1.png using Guid(fd3afe42d4072ac4d963017cd174ded6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335602323991982a399ddd9f5c5b6b9c') in 0.028765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.930773 seconds.
+  Time since last request: 9774.114338 seconds.
   path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png
   artifactKey: Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png using Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd107e1b2e729ecb6eae47a3f486ab') in 0.039573 seconds
+Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png using Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83dd107e1b2e729ecb6eae47a3f486ab') in 0.169658 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 3.814117 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA5_inside.png
-  artifactKey: Guid(a1b2b248ee63b3f4d8af59232129fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA5_inside.png using Guid(a1b2b248ee63b3f4d8af59232129fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cb7e58333a2a31af4f5d3e1b590a52') in 0.025922 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 34.311625 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA5_inside.png
-  artifactKey: Guid(a1b2b248ee63b3f4d8af59232129fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA5_inside.png using Guid(a1b2b248ee63b3f4d8af59232129fb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a760feb41dd230b820c372ae05e56d60') in 0.033893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 46.616597 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA5_junkyard.png
-  artifactKey: Guid(c3402708f10c48d499fab9d8e141bb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA5_junkyard.png using Guid(c3402708f10c48d499fab9d8e141bb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979fd3bb6e1eb6bceac4c693eee48979') in 0.027845 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.595299 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house1.png
-  artifactKey: Guid(2da713b773042c54b8d06aa14a7186af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house1.png using Guid(2da713b773042c54b8d06aa14a7186af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9a7204a637cb96d61a2a5af8a0e62a') in 0.035797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.145000 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house2.png
-  artifactKey: Guid(b8fec64b793db974b9eba5f8858af9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house2.png using Guid(b8fec64b793db974b9eba5f8858af9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05833db25b734fc7b952444f46d1ef49') in 0.034152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.997759 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house3.png
-  artifactKey: Guid(4ae7495061e9fb34c941b506092493d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house3.png using Guid(4ae7495061e9fb34c941b506092493d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716d867b92893800ea057d2cbd2abd58') in 0.030461 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.784777 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house4.png
-  artifactKey: Guid(0bd3bee321edc7a4ba1b2c1342d92a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house4.png using Guid(0bd3bee321edc7a4ba1b2c1342d92a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b088eb7d67db23214b7c9ac63e7381') in 0.039620 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.965907 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house5.png
-  artifactKey: Guid(7624637ae92ebb047bc4085db5503cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house5.png using Guid(7624637ae92ebb047bc4085db5503cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff029b6a38cb1c7f081f1e1696d7d71') in 0.038492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.970008 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house6.png
-  artifactKey: Guid(391d2adc18b6712419223f4f28b76faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_house6.png using Guid(391d2adc18b6712419223f4f28b76faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfbbe9694ad18d9ce96283862585581') in 0.036670 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.710486 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_inside2.png
-  artifactKey: Guid(62818d6c17db7c14ea49342ad3e39461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_inside2.png using Guid(62818d6c17db7c14ea49342ad3e39461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518c99b8dbf0d512ee94089af0e51875') in 0.036794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.601852 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_inside3.png
-  artifactKey: Guid(8b0fa7a73e354a24ab1a825beedc6bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_inside3.png using Guid(8b0fa7a73e354a24ab1a825beedc6bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76aebb0b8e6931f5d4b03b998afa1a3c') in 0.028577 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.432829 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_junkyard.png
-  artifactKey: Guid(d95b47313307510478eb8ee3972b1fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_junkyard.png using Guid(d95b47313307510478eb8ee3972b1fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c5514c05d457906c7bb986ce294695') in 0.032727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 7.658340 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_outside1.png
-  artifactKey: Guid(2399a151a4c9adf439450178e6091df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_outside1.png using Guid(2399a151a4c9adf439450178e6091df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54117809979aacc099ff21091fc892b') in 0.028210 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 8.808352 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_outside2.png
-  artifactKey: Guid(d77a9420f8e38a24bbf0bb3ab18ba877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileB_outside2.png using Guid(d77a9420f8e38a24bbf0bb3ab18ba877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefb7421c82be5d5aedf0743aeb4d113') in 0.027450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 13.688427 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/master_tiles.png
-  artifactKey: Guid(a3b049fe41a988347b2096dfcc54c4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/master_tiles.png using Guid(a3b049fe41a988347b2096dfcc54c4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb881b42c3e5f9f133835174d88f975') in 0.071017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 108.710353 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Icons
-  artifactKey: Guid(6813f1ba178e72c4ab367a32f28ffa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Icons using Guid(6813f1ba178e72c4ab367a32f28ffa61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c91f84ded1f8d20dd68d3bb8c3de358') in 0.000873 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 78.246403 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Medieval/1x/Animated objects
-  artifactKey: Guid(80c56eb5498db0840b6696db07f94cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Medieval/1x/Animated objects using Guid(80c56eb5498db0840b6696db07f94cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f60b231f2cb65635cd243ee3046ed9') in 0.000767 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.504678 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Medieval/1x/Medieval Townsfolk pack (bonus)/Alchemist_walk.png
-  artifactKey: Guid(ce90501b0a2f5db4c8d6ad001862af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Medieval/1x/Medieval Townsfolk pack (bonus)/Alchemist_walk.png using Guid(ce90501b0a2f5db4c8d6ad001862af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086f25511b5ba2abeac7c49bcd682588') in 0.035156 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.553954 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Medieval/1x/Medieval Townsfolk pack (bonus)
-  artifactKey: Guid(8d852e1b97bc902408f7af084fbe02c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Medieval/1x/Medieval Townsfolk pack (bonus) using Guid(8d852e1b97bc902408f7af084fbe02c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f06c821fd2d654933e7fc9d2470f4c') in 0.000883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.715289 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/characters/cars.png
-  artifactKey: Guid(d7163ec9ceff49240907ddd4e20ed134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/characters/cars.png using Guid(d7163ec9ceff49240907ddd4e20ed134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760b350fc0633741a79927c3105abd96') in 0.028861 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 448.032147 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/RMMV/tilesets/modern_tileA1.png
-  artifactKey: Guid(7f66829919162954b86467e7eef7270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/RMMV/tilesets/modern_tileA1.png using Guid(7f66829919162954b86467e7eef7270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9d179e5926c119ddb35ffac0082507') in 0.036732 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 20.236098 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/RMMV/tilesets/modern_tileA1.png
-  artifactKey: Guid(7f66829919162954b86467e7eef7270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/RMMV/tilesets/modern_tileA1.png using Guid(7f66829919162954b86467e7eef7270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e162da663220d8f4c234d1658ae8b4') in 0.022527 seconds
+  Time since last request: 3.441223 seconds.
+  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png
+  artifactKey: Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png using Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8e563c6b259fe74837943fa50a9d5c') in 0.027396 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 55.898573 seconds.
-  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/RMMV/tilesets/modern_tileA1.png
-  artifactKey: Guid(7f66829919162954b86467e7eef7270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/RMMV/tilesets/modern_tileA1.png using Guid(7f66829919162954b86467e7eef7270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1440098ed941c56984f03472f745b0') in 2.459226 seconds
+  Time since last request: 34.459698 seconds.
+  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png
+  artifactKey: Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png using Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e430d1f9bbc20597e8ea2670c91e87ad') in 0.767540 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1298
+Number of asset objects unloaded after import = 242
+========================================================================
+Received Import Request.
+  Time since last request: 25.647769 seconds.
+  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png
+  artifactKey: Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png using Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ec39eff0747ead86fa691537f9ee3a') in 0.530648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 242
+========================================================================
+Received Import Request.
+  Time since last request: 35.219450 seconds.
+  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png
+  artifactKey: Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png using Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2186d9aa7d471df5866624625a7c6a3a') in 0.552046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 242
+========================================================================
+Received Import Request.
+  Time since last request: 75.077052 seconds.
+  path: Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png
+  artifactKey: Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/EhbkaaoCrusadeKit/EhbKaaiCrusade/Future/FutureFantasy/100/tilesets/modern_tileA4.png using Guid(a882b4eb760d1594aa09608296592f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6975ceb5285c22bc25fa77e084374c7') in 0.759142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 242
