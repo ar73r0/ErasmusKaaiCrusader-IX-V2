@@ -4584,13 +4584,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1331948451}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c9ea6aa2bc0b0942914990494d611d0, type: 3}
+  m_Script: {fileID: 11500000, guid: cd608c459809fad4b9e9132ecb18240f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  lastHorizontalVector: 0
-  lastVerticalVector: 0
-  moveDir: {x: 0, y: 0}
 --- !u!61 &1331948453
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4651,7 +4647,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
