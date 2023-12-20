@@ -639,6 +639,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4892912847584596095, guid: 7beee8026375feb46abf1c67fc1c43d8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1114628203, guid: d0de10f451288b5468ee9bc2f34cdf42, type: 3}
+    - target: {fileID: 7188528119369036950, guid: 7beee8026375feb46abf1c67fc1c43d8, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 545a3255ec3cb8b4991aca86605b9d34, type: 2}
     - target: {fileID: 7815250677905883330, guid: 7beee8026375feb46abf1c67fc1c43d8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1
