@@ -76,7 +76,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 21}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 531
     height: 638
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 50
+  controlID: 52
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -619,7 +619,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Textures
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -627,16 +627,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Textures
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\robbe\OneDrive\Documenten\GitHub\ErasmusKaaiCrusader-IX-V2\FirstVersion
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 40}
-    m_SelectedIDs: 128c0000
-    m_LastClickedID: 35858
-    m_ExpandedIDs: 00000000aa8b0000ac8b0000ae8b0000048c0000068c0000168c00008e8e0000968f000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 284.50287}
+    m_SelectedIDs: 20f80000
+    m_LastClickedID: 63520
+    m_ExpandedIDs: 000000001cf800001ef8000020f8000022f8000024f8000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -664,7 +664,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aa8b0000ac8b0000ae8b0000
+    m_ExpandedIDs: 000000001cf800001ef8000020f8000022f8000024f80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -804,9 +804,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 2aaf0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 4c88ffff4e88ffff069affffb0faffff449200002e9300008293000000940000d2940000
+      m_ExpandedIDs: cefaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1212,9 +1212,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.002841, y: 0.57387763, z: 8.900345}
+    m_Target: {x: -2.3580585, y: 15.995146, z: 8.058082}
     speed: 2
-    m_Value: {x: 4.002841, y: 0.57387763, z: 8.900345}
+    m_Value: {x: -3.9889967, y: 15.195825, z: 8.010365}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1264,9 +1264,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 17.039387
+    m_Target: 101.26616
     speed: 2
-    m_Value: 17.039387
+    m_Value: 106.037865
   m_Ortho:
     m_Target: 1
     speed: 2
