@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a70709f-f323-4e41-8d2c-174b9a7ee874" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Assets/BootCampMap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Assets/BootCampMap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Assets/Scenes/SchoolMap.unity" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Assets/Scenes/SchoolMap.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Assets/Textures/GridFirstFloorMap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Assets/Textures/GridFirstFloorMap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Assets/Textures/GridSchoolMap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Assets/Textures/GridSchoolMap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Logs/AssetImportWorker1-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Logs/AssetImportWorker1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FirstVersion/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/FirstVersion/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ZpNrx4lERJmUJWh3BP44bc4Jbb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a70709f-f323-4e41-8d2c-174b9a7ee874" name="Changes" comment="" />
+      <created>1703115268282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703115268282</updated>
+      <workItem from="1703115268284" duration="16000" />
+      <workItem from="1703115691994" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>
