@@ -47,3 +47,6 @@ TagManager:
   - name: forGround
     uniqueID: 3987831007
     locked: 0
+  - name: Objects
+    uniqueID: 1486826589
+    locked: 0

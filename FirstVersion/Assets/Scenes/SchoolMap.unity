@@ -319,8 +319,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1486826589
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1326012479, guid: 8fa91e3f019fb4c4bb5c285bc95076c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -342,7 +342,7 @@ Transform:
   m_GameObject: {fileID: 261846114}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.42, y: 5.2, z: -2}
+  m_LocalPosition: {x: -0.42, y: 5.2, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -356,6 +356,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1602734376536009011, guid: a3fdcbd4736615744b2f2350342f5cac, type: 3}
+      propertyPath: otherLayer
+      value: 
+      objectReference: {fileID: 1529391831}
+    - target: {fileID: 1602734376536009011, guid: a3fdcbd4736615744b2f2350342f5cac, type: 3}
+      propertyPath: currentLayer
+      value: 
+      objectReference: {fileID: 793492870}
     - target: {fileID: 4479089963443520183, guid: a3fdcbd4736615744b2f2350342f5cac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -405,6 +413,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3fdcbd4736615744b2f2350342f5cac, type: 3}
+--- !u!1 &793492870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5657311299299393102, guid: a3fdcbd4736615744b2f2350342f5cac, type: 3}
+  m_PrefabInstance: {fileID: 793492869}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1529391830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -416,6 +429,10 @@ PrefabInstance:
     - target: {fileID: 860496876806364274, guid: 8f5c79cc0e6c78b4883c94a86e46a332, type: 3}
       propertyPath: m_Name
       value: GridFirstFloorMap
+      objectReference: {fileID: 0}
+    - target: {fileID: 860496876806364274, guid: 8f5c79cc0e6c78b4883c94a86e46a332, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8332410597929657892, guid: 8f5c79cc0e6c78b4883c94a86e46a332, type: 3}
       propertyPath: m_LocalPosition.x
@@ -462,6 +479,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f5c79cc0e6c78b4883c94a86e46a332, type: 3}
+--- !u!1 &1529391831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 860496876806364274, guid: 8f5c79cc0e6c78b4883c94a86e46a332, type: 3}
+  m_PrefabInstance: {fileID: 1529391830}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1597854076
 GameObject:
   m_ObjectHideFlags: 0
