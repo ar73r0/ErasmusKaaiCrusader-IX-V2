@@ -15,8 +15,10 @@ GameObject:
   - component: {fileID: 6934703997254466521}
   - component: {fileID: 5507546054536359027}
   - component: {fileID: 6401913983049891653}
+  - component: {fileID: 2917631199232412536}
+  - component: {fileID: 4400136389880915027}
   m_Layer: 0
-  m_Name: Skeleton
+  m_Name: Skeleton 1
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -198,3 +200,33 @@ MonoBehaviour:
   attackPower: 0
   critRate: 0
   speed: 0
+--- !u!114 &2917631199232412536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319029519184159230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081a70ef94a081d4d95ba27dc0943704, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 4067718668599554301, guid: fc3d83d46f50de740ade9534a68f4e59, type: 3}
+  player: {fileID: 7815250677905883330, guid: 7beee8026375feb46abf1c67fc1c43d8, type: 3}
+  minDamage: 20
+  maxDamage: 40
+  projectileForce: 8
+--- !u!114 &4400136389880915027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3319029519184159230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf47e704f5e072b4bbbbd18c7112c44c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 30

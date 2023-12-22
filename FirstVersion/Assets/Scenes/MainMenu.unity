@@ -5009,7 +5009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 213aa0c2d5c8e924d8d9844bef6d8b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mc: {fileID: 0}
+  mc: {fileID: 705253480}
 --- !u!4 &550699349
 Transform:
   m_ObjectHideFlags: 0
@@ -5822,12 +5822,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602771116}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 5707537385693884806}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &604082880
 GameObject:
@@ -6095,7 +6095,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Do you want to start a new game in StoryMode?
+  m_text: Do you want to start a new game in EndlessMode?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7344,11 +7344,12 @@ MonoBehaviour:
   layer: {fileID: 519420033}
   brightnessTextValue: {fileID: 355545843}
   defaultBrightness: 1
+  comfirmationPrompt: {fileID: 1869926402}
   qualityDropdown: {fileID: 846979009}
   fullScreenToggle: {fileID: 1288065379}
-  comfirmationPrompt: {fileID: 1869926402}
-  _newGameLevel: Bootcamp
-  _endlessArena: 
+  _mainMenu: 
+  _newGameLevel: SchoolMap
+  _endlessArena: Bootcamp
   noSavedGameDialogue: {fileID: 488921548}
 --- !u!4 &705253481
 Transform:
@@ -8541,12 +8542,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870439947}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 5707537385693884806}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &890508882
 GameObject:
@@ -18484,9 +18485,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7821879798240015793, guid: dc77732437dc2b54ba0ea34f11b4dd57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 602771118}
+    - targetCorrespondingSourceObject: {fileID: 7821879798240015793, guid: dc77732437dc2b54ba0ea34f11b4dd57, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 870439949}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc77732437dc2b54ba0ea34f11b4dd57, type: 3}
+--- !u!4 &5707537385693884806 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7821879798240015793, guid: dc77732437dc2b54ba0ea34f11b4dd57, type: 3}
+  m_PrefabInstance: {fileID: 5707537385693884805}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -18497,7 +18509,5 @@ SceneRoots:
   - {fileID: 705253481}
   - {fileID: 1462058339}
   - {fileID: 807449206}
-  - {fileID: 870439949}
-  - {fileID: 602771118}
   - {fileID: 5707537385693884805}
   - {fileID: 550699349}
