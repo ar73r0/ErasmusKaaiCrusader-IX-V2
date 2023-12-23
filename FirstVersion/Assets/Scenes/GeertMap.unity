@@ -16247,6 +16247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TerrainChunk
       objectReference: {fileID: 0}
+    - target: {fileID: 6630143387625628040, guid: ef8c24f9e343eaf478667a85012c46e8, type: 3}
+      propertyPath: m_Name
+      value: GeertBackgroundGrid
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
