@@ -162,6 +162,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   currentChunk: {fileID: 0}
+  spawnedChunks: []
+  maxOpDist: 500
 --- !u!4 &645012237
 Transform:
   m_ObjectHideFlags: 0
@@ -377,7 +379,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd608c459809fad4b9e9132ecb18240f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveVector: {x: 0, y: 0}
   pauseUI: {fileID: 0}
   isPaused: 0
 --- !u!114 &1884313251
