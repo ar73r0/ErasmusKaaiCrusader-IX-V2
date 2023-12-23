@@ -179,7 +179,6 @@ GameObject:
   - component: {fileID: 5836388746074172575}
   - component: {fileID: 6934703997254466521}
   - component: {fileID: 5507546054536359027}
-  - component: {fileID: 6401913983049891653}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Enemy
@@ -347,24 +346,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 0
+  maxHealth: 100
   healthBar: {fileID: 3007132508541340686}
   healthBarSlider: {fileID: 4796100615407127290}
---- !u!114 &6401913983049891653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3319029519184159230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 401f070cf1d7afd4ca25077f05f53a63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Skeleton
-  health: 100
-  maxHealth: 100
 --- !u!1 &3497763451611415384
 GameObject:
   m_ObjectHideFlags: 0

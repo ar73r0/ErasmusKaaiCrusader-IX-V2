@@ -160,7 +160,6 @@ GameObject:
   - component: {fileID: 5836388746074172575}
   - component: {fileID: 6934703997254466521}
   - component: {fileID: 5507546054536359027}
-  - component: {fileID: 6401913983049891653}
   - component: {fileID: 2917631199232412536}
   m_Layer: 0
   m_Name: Skeleton 1
@@ -328,9 +327,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488b79cb68f3cbd4ca6cb2ce6180a1e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 0
+  maxHealth: 50
   healthBar: {fileID: 5342592550937178213}
   healthBarSlider: {fileID: 5268123336124592669}
---- !u!114 &6401913983049891653
+--- !u!114 &2917631199232412536
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339,24 +340,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 3319029519184159230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 401f070cf1d7afd4ca25077f05f53a63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Skeleton
-  health: 100
-  maxHealth: 100
-  attackPower: 0
-  critRate: 0
-  speed: 0
---- !u!114 &2917631199232412536
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3319029519184159230}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 081a70ef94a081d4d95ba27dc0943704, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -364,7 +347,9 @@ MonoBehaviour:
   minDamage: 20
   maxDamage: 40
   projectileForce: 8
-  cooldown: 2
+  cooldown: 4
+  extraWaitTimeMin: 0
+  extraWaitTimeMax: 10
 --- !u!1 &4327289138050433602
 GameObject:
   m_ObjectHideFlags: 0

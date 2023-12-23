@@ -107,7 +107,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 4.7000003, y: 1.6499996}
+  m_AnchoredPosition: {x: 0.05, y: 1.29}
   m_SizeDelta: {x: 2.0186, y: 0.9904}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &931373969659821782
@@ -259,9 +259,9 @@ GameObject:
   - component: {fileID: 554438011495530682}
   - component: {fileID: 8899851571815452319}
   - component: {fileID: 7703418373245286469}
+  - component: {fileID: 2107751683190639137}
   - component: {fileID: 4797343486223310656}
   - component: {fileID: 1390745679561108335}
-  - component: {fileID: 502326632008452356}
   m_Layer: 0
   m_Name: Ogre
   m_TagString: Enemy
@@ -358,6 +358,51 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &2107751683190639137
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2979399286411939697}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.2, y: 2.3}
+    newSize: {x: 2.2, y: 2.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.2, y: 2.3}
+  m_EdgeRadius: 0
 --- !u!114 &4797343486223310656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,24 +429,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 0
-  maxHealth: 0
+  maxHealth: 200
   healthBar: {fileID: 8576207774737330962}
   healthBarSlider: {fileID: 6065864901452701577}
---- !u!114 &502326632008452356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2979399286411939697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 401f070cf1d7afd4ca25077f05f53a63, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: Orge
-  health: 100
-  maxHealth: 100
 --- !u!1 &3162526880732560817
 GameObject:
   m_ObjectHideFlags: 0
@@ -435,7 +465,7 @@ RectTransform:
   m_Father: {fileID: 7057652968970421917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}

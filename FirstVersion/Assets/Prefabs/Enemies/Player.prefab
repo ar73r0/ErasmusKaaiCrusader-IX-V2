@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 1084128512641092309}
   - component: {fileID: 1418331629804649149}
   - component: {fileID: 1992192034815860570}
-  - component: {fileID: 6605992907841456982}
   - component: {fileID: 193796222669351584}
   m_Layer: 0
   m_Name: Player
@@ -186,24 +185,6 @@ MonoBehaviour:
   minDamage: 20
   maxDamage: 30
   projectileForce: 8
---- !u!114 &6605992907841456982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4344601261984398946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71deddd3a8864fd43b3aa1ce3b148004, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: 
-  health: 0
-  maxHealth: 0
-  attackPower: 0
-  critRate: 0
-  speed: 0
 --- !u!50 &193796222669351584
 Rigidbody2D:
   serializedVersion: 4
