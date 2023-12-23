@@ -119,15 +119,15 @@ Wrong! HAHA.
 //Question5    
 = Question5
 {lives} lives left
-Question 5: What does mkdir do?
+Question 5: What does CPU stand for?
 
-    * [Creating a directory]
+    * [Central Processing Unit]
         -> Correct5
-    * [Creating links]
+    * [Computer Peripheral Unit]
         -> Incorrect5
-    * [To mount storage devices]
+    * [Central Peripheral Unit]
         -> Incorrect5
-    * [To change your working directory]
+    * [Central Process Unit]
         -> Incorrect5
       
 = Correct5
@@ -145,15 +145,15 @@ Wrong! HAHA.
 //Question6    
 = Question6
 {lives} lives left
-Question 6: What does mkdir do?
+Question 6: Which of the following is a programming language?
 
-    * [Creating a directory]
+    * [HTML]
+        -> Incorrect6
+    * [JPEG]
+        -> Incorrect6
+    * [SQL]
         -> Correct6
-    * [Creating links]
-        -> Incorrect6
-    * [To mount storage devices]
-        -> Incorrect6
-    * [To change your working directory]
+    * [DNS]
         -> Incorrect6
       
 = Correct6
@@ -171,15 +171,15 @@ Wrong! HAHA.
 //Question7
 = Question7
 {lives} lives left
-Question 7: What does mkdir do?
+Question 7: Which network topology connects all devices in a series?
 
-    * [Creating a directory]
+    * [Bus]
         -> Correct7
-    * [Creating links]
+    * [Ring]
         -> Incorrect7
-    * [To mount storage devices]
+    * [Star]
         -> Incorrect7
-    * [To change your working directory]
+    * [Mesh]
         -> Incorrect7
       
 = Correct7
@@ -197,16 +197,16 @@ Wrong! HAHA.
 //Question8
 = Question8
 {lives} lives left
-Question 8: What does mkdir do?
+Question 8: Which file format is commonly used for compressed archives?
 
-    * [Creating a directory]
+    * [MP3]
+        -> Incorrect8
+    * [GIF]
+        -> Incorrect8
+    * [PDF]
+        -> Incorrect8
+    * [ZIP]
         -> Correct8
-    * [Creating links]
-        -> Incorrect8
-    * [To mount storage devices]
-        -> Incorrect8
-    * [To change your working directory]
-        -> Incorrect8
       
 = Correct8
 
@@ -223,15 +223,15 @@ Wrong! HAHA.
 //Question9
 = Question9
 {lives} lives left
-Question 9: What does mkdir do?
+Question 9: Which of the following is a protocol used for secure communication over a computer network?
 
-    * [Creating a directory]
+    * [HTTP]
+        -> Incorrect9
+    * [FTP]
+        -> Incorrect9
+    * [HTTPS]
         -> Correct9
-    * [Creating links]
-        -> Incorrect9
-    * [To mount storage devices]
-        -> Incorrect9
-    * [To change your working directory]
+    * [SMTP]
         -> Incorrect9
       
 = Correct9
@@ -249,15 +249,15 @@ Wrong! HAHA.
 //Question10
 = Question10
 {lives} lives left
-Question 10: What does mkdir do?
+Question 10: What are deadlocks?
 
-    * [Creating a directory]
+    * [System freezing due to memory shortage]
+        -> Incorrect10
+    * [Processes waiting for resources held by others]
         -> Correct10
-    * [Creating links]
+    * [Error from division by zero]
         -> Incorrect10
-    * [To mount storage devices]
-        -> Incorrect10
-    * [To change your working directory]
+    * [Security threat from malicious software]
         -> Incorrect10
       
 = Correct10
