@@ -7,6 +7,7 @@
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
+- [Build_by](#Build_by)
 - [License](#license)
 ## Description
 ErasmusKaaiCrusade is an educational game developed using C#, Unity, and MySQL. It is designed to represent the school environment where players can engage in dialogues, battle mobs, and even face off against teachers in a unique gaming experience.
@@ -53,7 +54,7 @@ We welcome contributions! To contribute to ErasmusKaaiCrusade, please follow the
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and submit a pull request.
 
-## Build by
+## Build_by
 Robbe
 Jurgen
 Petrit
