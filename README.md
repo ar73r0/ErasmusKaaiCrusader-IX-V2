@@ -51,10 +51,17 @@ We welcome contributions! To contribute to ErasmusKaaiCrusade, please follow the
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and submit a pull request.
 
+## Build by
+Robbe
+Jurgen
+Petrit
+Aaron
+
 ## License
 This project is licensed under the MIT License.
 
-Replace the placeholders (`Robbe, Jurgen, Petrit, Aaron `, `20XX.X.X`, `X.X.X`) with your actual GitHub Robbe, Jurgen, Petrit, Aaron, Unity version, and MySQL version, respectively. Feel free to modify the content as needed for your specific project details.
+
+
 
 
 
