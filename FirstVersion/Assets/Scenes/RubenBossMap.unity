@@ -67666,6 +67666,51 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+--- !u!1 &477711639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 477711641}
+  - component: {fileID: 477711640}
+  m_Layer: 0
+  m_Name: GoToSchool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &477711640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477711639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a97b87aab0b83fb44b8e2460dd8531ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  schoolLVL: SchoolMap
+--- !u!4 &477711641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477711639}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.624556, y: 15.215519, z: -0.1959595}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &649581912
 GameObject:
   m_ObjectHideFlags: 0
@@ -67794,6 +67839,79 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1298414148
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 601588125006260597, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: maxDamage
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 601588125006260597, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: minDamage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7569013
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.076448
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3831183648396381993, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_Name
+      value: RubenBoss Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4848487441036926078, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619883179936566351, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: maxHealth
+      value: 500
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
 --- !u!1 &1608514757
 GameObject:
   m_ObjectHideFlags: 0
@@ -68175,3 +68293,5 @@ SceneRoots:
   - {fileID: 367037138}
   - {fileID: 219543284}
   - {fileID: 649581914}
+  - {fileID: 477711641}
+  - {fileID: 1298414148}
