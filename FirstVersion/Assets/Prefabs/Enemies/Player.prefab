@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: 1084128512641092309}
   - component: {fileID: 1418331629804649149}
   - component: {fileID: 1992192034815860570}
-  - component: {fileID: 6605992907841456982}
   - component: {fileID: 193796222669351584}
+  - component: {fileID: 446488928089074492}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -23,21 +23,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7815250677905883330
-Transform:
+--- !u!224 &7815250677905883330
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4344601261984398946}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.1, y: -0.008, z: -2}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.14, y: 0.21}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &4892912847584596095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -76,8 +80,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1486826589
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -1326012479, guid: 8fa91e3f019fb4c4bb5c285bc95076c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -186,24 +190,6 @@ MonoBehaviour:
   minDamage: 20
   maxDamage: 30
   projectileForce: 8
---- !u!114 &6605992907841456982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4344601261984398946}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71deddd3a8864fd43b3aa1ce3b148004, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: 
-  health: 0
-  maxHealth: 0
-  attackPower: 0
-  critRate: 0
-  speed: 0
 --- !u!50 &193796222669351584
 Rigidbody2D:
   serializedVersion: 4
@@ -231,3 +217,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!222 &446488928089074492
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4344601261984398946}
+  m_CullTransparentMesh: 1

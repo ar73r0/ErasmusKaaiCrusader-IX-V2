@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Currency
+  - Trigger
+  - Chunks
+  - Audio
   layers:
   - Default
   - TransparentFX
@@ -12,10 +16,10 @@ TagManager:
   - PostProcessing
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Terrain
+  - CaveTerrain
+  - DesertTerrain
+  - JapanTerrain
   - 
   - 
   - 
