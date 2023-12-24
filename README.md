@@ -46,7 +46,7 @@ Build and run the game.
 
 ## Dependencies
 . Unity 2022.3.15f1
-. MySQL 8.9.1
+. MySQL 8.2.0
 ## Contributing
 We welcome contributions! To contribute to ErasmusKaaiCrusade, please follow these steps:
 
