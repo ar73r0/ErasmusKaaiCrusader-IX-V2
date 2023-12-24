@@ -12,10 +12,10 @@ TagManager:
   - PostProcessing
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Terrain
+  - CaveTerrain
+  - DesertTerrain
+  - JapanTerrain
   - 
   - 
   - 
