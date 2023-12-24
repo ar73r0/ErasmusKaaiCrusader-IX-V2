@@ -164,6 +164,7 @@ MonoBehaviour:
   currentChunk: {fileID: 0}
   spawnedChunks: []
   maxOpDist: 500
+  optimizerCooldownDuring: 0
 --- !u!4 &645012237
 Transform:
   m_ObjectHideFlags: 0
@@ -393,12 +394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71deddd3a8864fd43b3aa1ce3b148004, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  health: 0
-  maxHealth: 0
-  attackPower: 0
-  critRate: 0
-  speed: 0
 --- !u!61 &1884313252
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16203,6 +16198,10 @@ PrefabInstance:
     - target: {fileID: 296101296722031207, guid: ef8c24f9e343eaf478667a85012c46e8, type: 3}
       propertyPath: m_Tiles.Array.data[805].second.m_TileObjectToInstantiateIndex
       value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3411150974430450090, guid: ef8c24f9e343eaf478667a85012c46e8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6200515533489395223, guid: ef8c24f9e343eaf478667a85012c46e8, type: 3}
       propertyPath: m_LocalPosition.x
