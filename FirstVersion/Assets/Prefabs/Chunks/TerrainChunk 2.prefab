@@ -7673,7 +7673,7 @@ GameObject:
   - component: {fileID: 5306858090643527068}
   m_Layer: 6
   m_Name: TerrainChunk 2
-  m_TagString: Untagged
+  m_TagString: Chunks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

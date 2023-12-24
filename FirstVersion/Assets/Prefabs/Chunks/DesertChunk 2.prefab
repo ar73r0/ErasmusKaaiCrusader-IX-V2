@@ -434,7 +434,7 @@ GameObject:
   - component: {fileID: 6335356290147582142}
   m_Layer: 8
   m_Name: DesertChunk 2
-  m_TagString: Untagged
+  m_TagString: Chunks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

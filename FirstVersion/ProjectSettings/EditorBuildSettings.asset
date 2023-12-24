@@ -20,5 +20,26 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RubenMap.unity
     guid: 6ffb0f8d443eb4946a0d1c63491af881
+  - enabled: 1
+    path: Assets/Scenes/GeertBossMap.unity
+    guid: 990df53b9bef8bc46abc695e70837efb
+  - enabled: 1
+    path: Assets/Scenes/GeertMap.unity
+    guid: d15364a202315bc4b9c8d75ff64d913c
+  - enabled: 1
+    path: Assets/Scenes/RubenBossMap.unity
+    guid: de3858eecb424b847abd880f6a4f2d74
+  - enabled: 1
+    path: Assets/Scenes/ThomasBossMap.unity
+    guid: f57a5161a6fe14641a3577d72bc7a32f
+  - enabled: 1
+    path: Assets/Scenes/ThomasMap.unity
+    guid: bea6f1341d401ca4f97e7f443966159b
+  - enabled: 1
+    path: Assets/Scenes/TomBossMap.unity
+    guid: 8f66d63aa29703244a7f42879ff10078
+  - enabled: 1
+    path: Assets/Scenes/TomMap.unity
+    guid: ba538804fabd3e2468b6ef653c643e5d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d3cdbbe4961aaea4d8ac0114f17a6eb7, type: 2}

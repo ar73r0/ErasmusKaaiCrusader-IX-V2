@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Currency
+  - Trigger
+  - Chunks
+  - Audio
   layers:
   - Default
   - TransparentFX

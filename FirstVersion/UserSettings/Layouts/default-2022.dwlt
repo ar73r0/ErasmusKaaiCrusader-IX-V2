@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 106
+  controlID: 111
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -76,7 +76,7 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 22}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 648
     height: 638
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 51
+  controlID: 53
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 52
+  controlID: 54
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -434,7 +434,7 @@ MonoBehaviour:
       oldMaxSizes: 
       oldSplitSize: 0
     m_HorizontalSplitter:
-      ID: 1928
+      ID: 34479
       splitterInitialOffset: 0
       currentActiveSplitter: -1
       realSizes:
@@ -567,7 +567,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 112732
+  m_LastSelectedObjectID: 109622
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -836,7 +836,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -844,16 +844,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\robbe\OneDrive\Documenten\GitHub\ErasmusKaaiCrusader-IX-V2\FirstVersion
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 140}
-    m_SelectedIDs: 683c0100
-    m_LastClickedID: 81000
-    m_ExpandedIDs: 000000009a3b01009c3b01009e3b0100a03b0100a23b0100a43b0100a63b0100a83b0100aa3b0100ac3b0100ae3b010000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 5e4b0100
+    m_LastClickedID: 84830
+    m_ExpandedIDs: 00000000564b0100584b01005a4b01005c4b01005e4b0100604b0100624b0100644b0100664b0100684b0100b24b0100b64b0100c04b010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -881,7 +881,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a3b01009c3b01009e3b0100a03b0100a23b0100a43b0100a63b0100a83b0100aa3b0100ac3b0100ae3b0100
+    m_ExpandedIDs: 00000000564b0100584b01005a4b01005c4b01005e4b0100604b0100624b0100644b0100664b0100684b0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -933,7 +933,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 103}
     m_GridSize: 96
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 183
@@ -1021,23 +1021,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5cb80100
-      m_LastClickedID: 112732
-      m_ExpandedIDs: dc8cffffee99ffff989affff04a9ffff7eacffff9aacfffff6b1ffff64bbffff66bbffff2ebcfffffcbcffff08beffff54c8ffff48cbffffc8d5ffff6ed7ffff80dfffffa2ecffff18f3ffff2af9fffff4ffffffe8460100625b01002c6f0100
+      m_SelectedIDs: 922b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: c605feffa806feff1207feffa007feffee08feff8e09feffda0dfeff780efeff160ffeff9413feff3c14feff7e15feffb616feff7e18feff0019feff8219feff1a1afeff861bfefff01cfeff8e1dfeffa820feff0022feffac22feff8a23feff8224feffb425feffac26feffd828feff162afeff182cfeff622dfeff6a32feff2633feff0c34feff1635feff6436feff7637fefff838feffb43dfeffac3efeffca3ffeffc641feffac42feff3c53feff6e54feff5455fefff255feff4457feff7a58feff7c58feffac59feffae59feff5e5afeffa05bfeffa25bfefff865feff0066feff8066feff8e66feff9666feff2068feff2868feff9e68feffa668feffba69feff688efeffe08ffeff2a95feff0a96feff9a9cfeff6ea7feff4ea8feff50a8feff5ca9feffaeb7feffa4d6feffa8d6feffaad6feffb8d6feffd2d6feff70d8feff74e2feffd4eefeffa80dffff1229ffff1c29ffff4829ffff682affff8e3affff5846fffff449ffff0e4affffd04afffff04bffffae4cffffbe4dffff7e4effffaa4fffff6e50ffff0852ffffd292ffff6495ffffeea0ffff78bcffff86bcffff8ebcffff90bcffffb0e4ffff8eedfffff4ffffff169301002eac0100502d0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: MapGeert
-        m_OriginalName: MapGeert
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 83712
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -1429,9 +1429,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.7983778, y: -3.1475115, z: -0.09160899}
+    m_Target: {x: -5.0145016, y: 2.7767699, z: -10.01652}
     speed: 2
-    m_Value: {x: 2.7983778, y: -3.1475115, z: -0.09160899}
+    m_Value: {x: -4.499329, y: 2.7800653, z: -10.023011}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1481,9 +1481,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.274789
+    m_Target: 13.777107
     speed: 2
-    m_Value: 10.274789
+    m_Value: 14.4262905
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1586,7 +1586,7 @@ MonoBehaviour:
       y: 21
       width: 927
       height: 596
-    m_Scale: {x: 0.4828125, y: 0.4828125}
+    m_Scale: {x: 0.4828125, y: 0.48281246}
     m_Translation: {x: 463.5, y: 298}
     m_MarginLeft: 0
     m_MarginRight: 0

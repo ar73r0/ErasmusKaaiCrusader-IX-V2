@@ -17832,6 +17832,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI Overlay
       objectReference: {fileID: 0}
+    - target: {fileID: 8355242012071367797, guid: ed7eae9aa3137ad40b8be4b6f5256155, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8992046923556352717, guid: ed7eae9aa3137ad40b8be4b6f5256155, type: 3}
       propertyPath: player
       value: 
