@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SchoolMap.unity
     guid: 1a507f56b63569f4fb10c08d237cc579
+  - enabled: 1
+    path: Assets/Scenes/RubenMap.unity
+    guid: 6ffb0f8d443eb4946a0d1c63491af881
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: d3cdbbe4961aaea4d8ac0114f17a6eb7, type: 2}
