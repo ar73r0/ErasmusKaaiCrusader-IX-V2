@@ -432,6 +432,7 @@ MonoBehaviour:
   maxHealth: 200
   healthBar: {fileID: 8576207774737330962}
   healthBarSlider: {fileID: 6065864901452701577}
+  lootDrop: {fileID: 6564476902352237835, guid: e4113031fca5150459726ce08cff630f, type: 3}
 --- !u!1 &3162526880732560817
 GameObject:
   m_ObjectHideFlags: 0
