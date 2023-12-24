@@ -1181,6 +1181,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6647404770194788539, guid: 88479393aaee6c347a8191b0f5addc12, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6647404770194788539, guid: 88479393aaee6c347a8191b0f5addc12, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -307136289
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812564137146707254, guid: 88479393aaee6c347a8191b0f5addc12, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812564137146707254, guid: 88479393aaee6c347a8191b0f5addc12, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 484926421
+      objectReference: {fileID: 0}
     - target: {fileID: 7107717520266276542, guid: 88479393aaee6c347a8191b0f5addc12, type: 3}
       propertyPath: m_Tiles.Array.size
       value: 683
@@ -79603,6 +79619,14 @@ PrefabInstance:
     - target: {fileID: 4892912847584596095, guid: 7beee8026375feb46abf1c67fc1c43d8, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892912847584596095, guid: 7beee8026375feb46abf1c67fc1c43d8, type: 3}
+      propertyPath: m_SortingLayer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4892912847584596095, guid: 7beee8026375feb46abf1c67fc1c43d8, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1486826589
       objectReference: {fileID: 0}
     - target: {fileID: 7188528119369036950, guid: 7beee8026375feb46abf1c67fc1c43d8, type: 3}
       propertyPath: m_Controller
