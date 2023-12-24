@@ -56,8 +56,11 @@ We welcome contributions! To contribute to ErasmusKaaiCrusade, please follow the
 
 ## Build_by
 Robbe
+
 Jurgen
+
 Petrit
+
 Aaron
 
 ## License
