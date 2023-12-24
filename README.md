@@ -18,10 +18,12 @@ ErasmusKaaiCrusade is an educational game developed using C#, Unity, and MySQL. 
 - **Educational Elements:** The game incorporates educational aspects to enhance the learning experience.
 
 ## Installation
-1. Clone the repository https://git-lfs.github.com/spec/v1
-bash
+1. Clone the repository https://git-lfs.github.com/spec/v1 bash
+   
 Copy code https://git-lfs.github.com/spec/v1
+
 git clone https://git-lfs.github.com/spec/v1
+
 Open the project in Unity.
 
 Set up the MySQL database using the provided SQL scripts in the Database folder.
