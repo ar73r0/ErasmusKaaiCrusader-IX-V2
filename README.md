@@ -1,3 +1,1 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c82dfeaf5f81e9ba29c45bb97b8275b134c62a7848e8c76b881ce45c59908365
-size 27
+![image](https://github.com/ar73r0/ErasmusKaaiCrusader-IX-V2/assets/133093619/01fdb1ff-33d9-4618-84f6-2d9c3faa8eda)
