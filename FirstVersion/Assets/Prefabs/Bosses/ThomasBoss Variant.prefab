@@ -465,6 +465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ThomasBoss Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 4476532071446757653, guid: fd41600f5c3f30f4db8464bc2c6a294a, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5470660669417828886, guid: fd41600f5c3f30f4db8464bc2c6a294a, type: 3}
     m_RemovedGameObjects: []

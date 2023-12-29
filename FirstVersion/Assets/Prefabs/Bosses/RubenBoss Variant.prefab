@@ -465,6 +465,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RubenBoss Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6111729664175307928, guid: 5bf0b4e9ce1388f4cabb4da6f89ead72, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7586590222092425721, guid: 5bf0b4e9ce1388f4cabb4da6f89ead72, type: 3}
     m_RemovedGameObjects: []

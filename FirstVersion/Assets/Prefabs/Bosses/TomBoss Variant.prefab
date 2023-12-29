@@ -425,6 +425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TomBoss Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6471670154121182694, guid: 21c25fafb348183468595b35e5d6cc67, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 7721259409861045920, guid: 21c25fafb348183468595b35e5d6cc67, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.857884
