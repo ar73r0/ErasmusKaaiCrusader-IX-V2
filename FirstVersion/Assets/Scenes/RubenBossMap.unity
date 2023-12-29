@@ -67855,6 +67855,10 @@ PrefabInstance:
       propertyPath: minDamage
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 601588125006260597, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: projectileForce
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3534152536646549704, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.7569013
@@ -67902,6 +67906,14 @@ PrefabInstance:
     - target: {fileID: 4848487441036926078, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
       propertyPath: moveSpeed
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622749400707138505, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_Size.x
+      value: 0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6622749400707138505, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8619883179936566351, guid: 7fe6fb3464c34bc408aa57779d64419a, type: 3}
       propertyPath: maxHealth
