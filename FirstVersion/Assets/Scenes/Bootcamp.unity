@@ -556,6 +556,7 @@ MonoBehaviour:
   - {fileID: 3940674596160714603, guid: 2059f68acb5deda4aaab6d8cd42c46ce, type: 3}
   spawnDelay: 5
   amount: 800
+  Endless: 1
 --- !u!4 &1166867635
 Transform:
   m_ObjectHideFlags: 0
