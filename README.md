@@ -27,11 +27,11 @@ git clone https://git-lfs.github.com/spec/v1
 
 Open the project in Unity.
 
-Set up the MySQL database using the provided SQL scripts in the Database folder.
+"Coming soon" Set up the MySQL database using the provided SQL scripts in the Database folder.
 
-Configure the database connection in the game settings.
+"Coming soon" Configure the database connection in the game settings.
 
-Build and run the game.
+"Coming soon" Build and run the game .
 
 ## Usage
 1. Launch the game and create a new character.
