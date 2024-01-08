@@ -45,8 +45,12 @@ Open the project in Unity.
 5. Enjoy the unique blend of education and gaming in ErasmusKaaiCrusade!
 
 ## Dependencies
+- Technology
+. Music: pixabay, ovani sound
+. Assests: GDM GameDev Market, RPG assest, OpenGameArt, Unity Assest Store
 . Unity 2022.3.15f1
 . MySQL 8.2.0
+  
 ## Contributing
 We welcome contributions! To contribute to ErasmusKaaiCrusade, please follow these steps:
 
