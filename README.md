@@ -47,7 +47,7 @@ Open the project in Unity.
 ## Dependencies
 - Technology
 . Music: pixabay, ovani sound
-. Assests: GDM GameDev Market, RPG assest, OpenGameArt, Unity Assest Store
+. Assests: GDM GameDev Market, RPG assest, OpenGameArt, Unity Assest Store,
 . Unity 2022.3.15f1
 . MySQL 8.2.0
   
