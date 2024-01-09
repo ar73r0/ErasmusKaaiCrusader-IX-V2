@@ -6353,6 +6353,7 @@ RectTransform:
   m_Children:
   - {fileID: 1767032706}
   - {fileID: 1869926403}
+  - {fileID: 807449206}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -7424,6 +7425,7 @@ MonoBehaviour:
   mouseSensSlider: {fileID: 397899119}
   defaultSen: 4
   mainMouseSen: 4
+  inGame: 0
   brightnessSlider: {fileID: 1463669713}
   brightness: {fileID: 11400000, guid: 6c342217d1baa474a818aa7093084d90, type: 2}
   layer: {fileID: 519420033}
@@ -8032,12 +8034,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807449203}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1084.9995, y: 712.69696, z: -9.900126}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 10148.08, y: 6665.9067, z: -934.37317}
+  m_LocalScale: {x: 9.353073, y: 9.353073, z: 9.353073}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 617274213}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &823452452
 GameObject:
@@ -16820,6 +16822,7 @@ GameObject:
   - component: {fileID: 1895506364}
   - component: {fileID: 1895506363}
   - component: {fileID: 1895506362}
+  - component: {fileID: 1895506365}
   m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
@@ -16890,6 +16893,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1895506365}
+        m_TargetAssemblyTypeName: SetPlayerPrefs, Assembly-CSharp
+        m_MethodName: GivePlayerTextures
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 550699348}
         m_TargetAssemblyTypeName: PlayerSelection, Assembly-CSharp
         m_MethodName: ModeSelector
@@ -16946,7 +16961,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1326012479, guid: 8fa91e3f019fb4c4bb5c285bc95076c1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -16964,6 +16979,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895506360}
   m_CullTransparentMesh: 1
+--- !u!114 &1895506365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895506360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08edcb1608a05f149b7b6358c9c2f523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSprite: {fileID: -1326012479, guid: 8fa91e3f019fb4c4bb5c285bc95076c1, type: 3}
+  playerAnimation: {fileID: 9100000, guid: 97dee4a331b060849ac563f12e324775, type: 2}
 --- !u!1 &1921281257
 GameObject:
   m_ObjectHideFlags: 0
@@ -17831,6 +17860,14 @@ PrefabInstance:
     - target: {fileID: 2995677754428584559, guid: ed7eae9aa3137ad40b8be4b6f5256155, type: 3}
       propertyPath: m_Name
       value: UI Overlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 5292144636228911493, guid: ed7eae9aa3137ad40b8be4b6f5256155, type: 3}
+      propertyPath: layer
+      value: 
+      objectReference: {fileID: 519420033}
+    - target: {fileID: 5292144636228911493, guid: ed7eae9aa3137ad40b8be4b6f5256155, type: 3}
+      propertyPath: inGame
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8355242012071367797, guid: ed7eae9aa3137ad40b8be4b6f5256155, type: 3}
       propertyPath: m_audioClip
@@ -18889,7 +18926,6 @@ SceneRoots:
   - {fileID: 432225545}
   - {fileID: 705253481}
   - {fileID: 1462058339}
-  - {fileID: 807449206}
   - {fileID: 5707537385693884805}
   - {fileID: 550699349}
   - {fileID: 368229063}
